@@ -1,0 +1,87 @@
+/* Ajustes para deixar visualmente melhor*/
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Definindo a cor dos títulos h2*/
+h2 {
+    color: rgb(46, 126, 126);
+}
+
+/* Deixando os parágrafos justificados */
+p {
+    text-align: justify;
+    text-indent: 50px; 
+}
+
+/* Definindo o tamanho da imagem e sua disposição*/
+img {
+    width:350px; /* Define a largura da imagem*/
+    height:350px; /* Define a altura da imagem */
+    border-radius: 200px; /* Adiciona bordas arredondadas à imagem */
+    display: block; /* Remove o espaço embaixo da imagem */
+    margin: auto /* Adiciona margem acima e abaixo da imagem */
+    
+}
+
+body {
+    font-family: Trebuchet MS;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+    color: #000000;
+}
+
+
+/* Estiliza o cabeçalho e o menu de navegação */
+header {
+    background: #94bec9;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilizando as abas do cabeçalho */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Define o estilo das seções principais */
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Define o estilo do rodapé */
+footer {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #94bec9;
+    color: #fff;
+}
